@@ -14,7 +14,7 @@ int *p1,*p2,a,b;
 	scanf("%d",p1);
 	printf("donner la 2 eme valeur");
 	scanf("%d",p2);
-	printf("la somme =%d \n",(*p1+*p2));
+	printf("la somme =%d \n",(*p1)+(*p2));
     printf("la soustraction =%d \n",(*p1-*p2));
     printf("le produit des deux nombres =%d \n",(*p1)*(*p2));
 	
