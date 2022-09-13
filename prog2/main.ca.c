@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main (){
-	float a,b,s,m,si,si2,p,d;
+	float a,b,s,m,p,d;
 	
 	char signe;
 	printf("donnez la premier nombre:\n");
@@ -16,26 +16,22 @@ int main (){
 	
 	if(signe== '+'){
 		s=a+b;
-		printf ("le somme des nombres %.2f  et %.2f est :\n= %.2f",a,b, s);}
+		printf ("le somme des nombre est :\n= %.2f", s);}
      else if (signe== '-'){
     m= a-b;
-    	printf ("le moin des nombres %f et %f est :\n= %.2f",a,b, m);
+    	printf ("le moin des nombre est :\n= %.2f", m);
 	 }
 	 else if (signe=='*'){
 	 p= a*b;
-	 	printf ("le prouduit des nombres %f et %f est :\n= %.2f",a,b, p);
+	 	printf ("le prouduit des nombre est :\n= %.2f", p);
 	 }
 	 else if (signe == '/'){
 	 d = a/b;
-	 	printf ("la devision des nombres %f et %f est :\n= %.2f",a,b, d);	
+	 	printf ("la devision des nombre est :\n= %.2f", d);	
 	 }
-	else if (signe == 's'){
-		si=sin (a);
-		si2=sin (b);
-		printf(" le sin de nombre %f et %f est: %lf et  %lf " ,a,b,si,si2);	
 	
 	
-}
+	
 	
 	
 	
